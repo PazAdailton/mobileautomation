@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-07-26T21:28:57 BRT" name="Default suite" finished-at="2026-07-26T21:29:17 BRT" duration-ms="20145">
+    <groups>
+    </groups>
+    <test started-at="2026-07-26T21:28:57 BRT" name="Default test" finished-at="2026-07-26T21:29:17 BRT" duration-ms="20145">
+      <class name="mobileautomation.Appium.AppiumBasics">
+        <test-method is-config="true" signature="ConfigureAppium()[pri:0, instance:mobileautomation.Appium.AppiumBasics@795509d9]" started-at="2026-07-26T21:28:57 BRT" name="ConfigureAppium" finished-at="2026-07-26T21:29:09 BRT" duration-ms="11823" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfigureAppium -->
+        <test-method signature="WifeSettingName()[pri:0, instance:mobileautomation.Appium.AppiumBasics@795509d9]" started-at="2026-07-26T21:29:09 BRT" name="WifeSettingName" finished-at="2026-07-26T21:29:17 BRT" duration-ms="8267" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WifeSettingName -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:mobileautomation.Appium.AppiumBasics@795509d9]" started-at="2026-07-26T21:29:17 BRT" name="tearDown" finished-at="2026-07-26T21:29:17 BRT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- mobileautomation.Appium.AppiumBasics -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
