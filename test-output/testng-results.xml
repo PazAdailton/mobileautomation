@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-07-26T21:28:57 BRT" name="Default suite" finished-at="2026-07-26T21:29:17 BRT" duration-ms="20145">
+  <suite started-at="2026-07-30T20:31:23 BRT" name="Default suite" finished-at="2026-07-30T20:32:06 BRT" duration-ms="43535">
     <groups>
     </groups>
-    <test started-at="2026-07-26T21:28:57 BRT" name="Default test" finished-at="2026-07-26T21:29:17 BRT" duration-ms="20145">
-      <class name="mobileautomation.Appium.AppiumBasics">
-        <test-method is-config="true" signature="ConfigureAppium()[pri:0, instance:mobileautomation.Appium.AppiumBasics@795509d9]" started-at="2026-07-26T21:28:57 BRT" name="ConfigureAppium" finished-at="2026-07-26T21:29:09 BRT" duration-ms="11823" status="PASS">
+    <test started-at="2026-07-30T20:31:23 BRT" name="Default test" finished-at="2026-07-30T20:32:06 BRT" duration-ms="43535">
+      <class name="mobileautomation.Appium.DragDropDemo">
+        <test-method is-config="true" signature="ConfigureAppium()[pri:0, instance:mobileautomation.Appium.DragDropDemo@742ff096]" started-at="2026-07-30T20:31:23 BRT" name="ConfigureAppium" finished-at="2026-07-30T20:31:31 BRT" duration-ms="8431" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ConfigureAppium -->
-        <test-method signature="WifeSettingName()[pri:0, instance:mobileautomation.Appium.AppiumBasics@795509d9]" started-at="2026-07-26T21:29:09 BRT" name="WifeSettingName" finished-at="2026-07-26T21:29:17 BRT" duration-ms="8267" status="PASS">
+        <test-method signature="DragDropTest()[pri:0, instance:mobileautomation.Appium.DragDropDemo@742ff096]" started-at="2026-07-30T20:31:31 BRT" name="DragDropTest" finished-at="2026-07-30T20:32:06 BRT" duration-ms="35050" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- WifeSettingName -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:mobileautomation.Appium.AppiumBasics@795509d9]" started-at="2026-07-26T21:29:17 BRT" name="tearDown" finished-at="2026-07-26T21:29:17 BRT" duration-ms="3" status="PASS">
+        </test-method> <!-- DragDropTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:mobileautomation.Appium.DragDropDemo@742ff096]" started-at="2026-07-30T20:32:06 BRT" name="tearDown" finished-at="2026-07-30T20:32:06 BRT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- mobileautomation.Appium.AppiumBasics -->
+      </class> <!-- mobileautomation.Appium.DragDropDemo -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
