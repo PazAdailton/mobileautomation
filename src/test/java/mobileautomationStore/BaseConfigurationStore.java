@@ -1,4 +1,4 @@
-package mobileautomation.Appium;
+package mobileautomationStore;
 
 import java.io.File;
 import java.net.MalformedURLException;
@@ -11,7 +11,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.RemoteWebElement;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
-import org.testng.annotations.Test;
 
 import com.google.common.collect.ImmutableMap;
 
@@ -20,13 +19,12 @@ import io.appium.java_client.android.options.UiAutomator2Options;
 import io.appium.java_client.service.local.AppiumDriverLocalService;
 import io.appium.java_client.service.local.AppiumServiceBuilder;
 
-public class BaseTest {
+public class BaseConfigurationStore {
 	
 	public AndroidDriver driver;
 	public AppiumDriverLocalService service;
 	
 	@BeforeClass
-	@Test
 	public void ConfigureAppium() throws MalformedURLException, URISyntaxException {
 		// AndroidDriver and IOSDriver
 		service =  new AppiumServiceBuilder().withAppiumJS(new File("C:\\Users\\AdailtonPaz\\AppData\\Roaming\\npm\\node_modules\\appium\\build\\lib\\main.js"))
@@ -40,7 +38,6 @@ public class BaseTest {
 		
 	    driver = new AndroidDriver(new URI("http://127.0.0.1:4723").toURL(), options);
 	    driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-	    driver.installApp("C:\\Users\\AdailtonPaz\\eclipse-workspace_java_essencial\\Appium\\src\\test\\java\\resources\\General-Store.apk");
 		//Xpath, id, accessibilityId, classname, androidUIAutomator
 	}
 	
