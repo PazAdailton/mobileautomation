@@ -35,6 +35,7 @@ public class BaseConfigurationStore {
 		options.setDeviceName("Xiaomi 2201117TG");
 		options.setApp("C:\\Users\\AdailtonPaz\\eclipse-workspace_java_essencial\\Appium\\src\\test\\java\\resources\\General-Store.apk");
 		options.setAutoGrantPermissions(true);
+		options.setChromedriverExecutable("C:\\Program Files\\chromedriver-win64\\chromedriver.exe");
 		
 	    driver = new AndroidDriver(new URI("http://127.0.0.1:4723").toURL(), options);
 	    driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
@@ -55,7 +56,7 @@ public class BaseConfigurationStore {
 		canScrollMore = (Boolean) ((JavascriptExecutor) driver).executeScript("mobile: scrollGesture", ImmutableMap.of(
 			    "left", 100, "top", 100, "width", 200, "height", 200,
 			    "direction", "down",
-			    "percent", 3.0
+			    "percent", 1.0
 			));
 		}while(canScrollMore);
 	}
@@ -74,6 +75,12 @@ public class BaseConfigurationStore {
 			    "endX", x,
 			    "endY", y
 			));
+	}
+	
+	public double getFormattedAmount(String amount) {
+		Double price = Double.parseDouble(amount);
+		return price;
+				
 	}
 	
 	@AfterClass
